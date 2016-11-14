@@ -1,5 +1,5 @@
 {
-  "name": "color",
+  "name": "olical-color",
   "version": "1.0.0",
   "description": "Color conversion functions for JavaScript",
   "main": "src/color.js",
@@ -8,6 +8,9 @@
     "lint": "standard",
     "prepublish": "npm run lint && npm test"
   },
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Olical/Color.git"
