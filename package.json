@@ -24,5 +24,10 @@
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.6.2"
+  },
+  "standard": {
+    "globals": [
+      "define"
+    ]
   }
 }
