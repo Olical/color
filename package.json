@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Olical/Color.git"
+    "url": "git+https://github.com/Olical/color.git"
   },
   "keywords": [
     "color"
@@ -21,9 +21,9 @@
   "author": "Oliver Caldwell",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/Olical/Color/issues"
+    "url": "https://github.com/Olical/color/issues"
   },
-  "homepage": "https://github.com/Olical/Color#readme",
+  "homepage": "https://github.com/Olical/color#readme",
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.6.2"
