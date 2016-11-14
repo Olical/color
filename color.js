@@ -90,7 +90,7 @@ var color = {
 			
 			// Make sure it is always the right length
 			if(color[i].length === 1) {
-				color[i] = color[i] + color[i];
+				color[i] = "0" + color[i];
 			}
 		}
 		
