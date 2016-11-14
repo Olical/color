@@ -4,7 +4,9 @@
   "description": "Color conversion functions for JavaScript",
   "main": "src/color.js",
   "scripts": {
-    "test": "tape test/**/*.js | faucet"
+    "test": "tape test/**/*.js | faucet",
+    "lint": "standard",
+    "prepublish": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
