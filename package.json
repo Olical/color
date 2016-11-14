@@ -1,6 +1,6 @@
 {
   "name": "olical-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color conversion functions for JavaScript",
   "main": "src/color.js",
   "scripts": {
