@@ -1,0 +1,36 @@
+{
+  "name": "olical-color",
+  "version": "1.0.0",
+  "description": "Color conversion functions for JavaScript",
+  "main": "src/color.js",
+  "scripts": {
+    "test": "tape test/**/*.js | faucet",
+    "lint": "standard",
+    "prepublish": "npm run lint && npm test"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olical/color.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Oliver Caldwell",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Olical/color/issues"
+  },
+  "homepage": "https://github.com/Olical/color#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.6.2"
+  },
+  "standard": {
+    "globals": [
+      "define"
+    ]
+  }
+}

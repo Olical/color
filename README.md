@@ -1,3 +1,5 @@
+# color
+
 Used to convert colors to RGB or hex from RGB, hex or the color name
 
 Simply run any of the functions (`toArray`, `toRgb`, `toHex` or `toName`) and pass it your color in any of the following formats.
@@ -16,42 +18,30 @@ You also have access to all of the colors and their values by name. For instance
 To then convert that into hex you would use the following line.
 
     color.toHex(color.names.red);
+    
+## Installation
 
-## Licences
+You can find this library on npm under `olical-color` or on the [unpkg][] CDN at https://unpkg.com/olical-color/src/color.js. It is distributed with a UMD wrapper, so you can use it via AMD, nodejs or a browser global.
 
-### MIT
-Copyright (C) 2011 Oliver Caldwell
+## Testing
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Simply execute `npm test` to run the tape tests and `npm run lint` to run the standard linter. They are all executed before a publish.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+## Author
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+[Oliver Caldwell][author-site] ([@OliverCaldwell][author-twitter])
 
-### GPL
-Copyright (C) 2011 Oliver Caldwell
+## Unlicenced
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Find the full [unlicense][] in the `UNLICENSE` file, but here's a snippet.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+>This is free and unencumbered software released into the public domain.
+>
+>Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
 
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>.
+Do what you want. Learn as much as you can. Unlicense more software.
+
+[unlicense]: http://unlicense.org/
+[author-site]: http://oli.me.uk/
+[author-twitter]: https://twitter.com/OliverCaldwell
+[unpkg]: https://unpkg.com/#/
